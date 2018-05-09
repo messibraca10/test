@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns      ="http://www.w3.org/ns/widgets"
+	xmlns:gap  ="http://phonegap.com/ns/1.0"
+	id         ="com.phonegap.example"
+	versionCode="1.0.0"
+	version    ="1.0.0">
+
+ <!--  versionCode is Optional And Android only  -->
+
+	<name>circonfernza</name>
+
+	<description>
+	   calcolo della circonferenza e dell'area del cerchio sapendo il raggio
+	</description>
+
+	<authour href="https://build.phonegap.com">
+		Ravindu lakshan
+	</authour>
+
+	<platform name="android">
+		<icon src="icon.png" density="ldpi" />
+		<icon src="icon.png" density="mdpi" />
+		<icon src="icon.png" density="hdpi" />
+		<icon src="icon.png" density="xhdpi" />
+	</platform>
+</widget>
+ 

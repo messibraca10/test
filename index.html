@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html>
-<title>Prova app mobile</title>
+<title>circonferenza</title>
+<meta charset=utf-8>
 <head>
-<link rel=stylesheet href=htpp://getskeleton.com/dist/css/normalize.css>
-<link rel=stylesheet href=htpp://getskeleton.com/dist/css/normalize.css>
+<style>
+body {
+ background-image: url("/home/studente/app-ibride bracale/img/index1.jpeg");
+}
+</style>
+
+
+  <script src=js/cerchio.js>
+  </script>
+
+
+<link rel=stylesheet href=http://getskeleton.com/dist/css/normalize.css>
+<link rel=stylesheet href=http://getskeleton.com/dist/css/skeleton.css>
 </head>
 <body>
-	<div class=container style="margin:25%;">
-	 <div class=row>
-	  <div class="twelve columns">
-	        <button class=button onclick="alert('Ciao!')">
-    Cliccami
-	    </button>
+     <div class=container style="margin:25%;">
+       <div class=row>
+          <div class="twelve columns">
+             
+               </button>
+               
+          </div>
+       </div>
+       <div class=row>
+          <div class="six columns">
+              <img src=img/g.png>
+          </div>
+          <div class="six columns">
+               <!-- form quadrato -->
+        <form name=circonferenza>
+        <mark><label for=raggio>  raggio</label></mark>
+        <input type=number name=r min=0.001 step=0.001 required><br>
+       <mark> <input type=reset value=Cancella onclick=cancella() class=button></mark>
+        <mark><button type=button onclick=calcolaCirconferenza()> Circonferenza </button></mark>
+       <mark><button type=button onclick=calcolaArea() class=button>Area</button></mark>
+        </form>
+        <p id=circonferenza> </p>
+        <p id=area> </p>
+
+             
+          </div>
+       </div>
+       
+     </div>
+</body>
+</html>
